@@ -1,0 +1,58 @@
+body {
+    font-family: 'Verdana', "Aria";
+    margin: 25px 25px 0;
+  }
+
+h1{
+  font-size: 48px;
+  color: #0000ff;
+  padding: 15px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+
+p{
+  font-size: 24px;
+  padding: 0 0 15px 15px;
+}
+
+img{
+    width: 350px;
+    border: 10px dashed #000000; 
+}
+
+div{
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+div.red{
+    background-color: #ffbebe;
+    text-align:  right;
+    margin-left: 50px;
+    border-bottom: 3px solid #000000; 
+    border-left: 10px solid #000000;
+}
+
+div.blue{
+    background-color: #d9d9ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 10px solid #000000;
+    border-bottom: 3px solid #000000;
+}
+
+span{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+}
+
